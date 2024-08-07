@@ -1,0 +1,139 @@
+:root {
+  --prim-white: #fff;
+  --font: #59575a;
+  --font-light: #d9d6dc;
+  --main-color: #5c2682;
+  --border: #f6eafe;
+  --border-dark: #f8eeff;
+  --border-light: #f9f0ff;
+  --btn-border: #dbc4ec;
+  --yellow: #fab613;
+  --nav: #dccee5;
+  --approved: #05c78d0d;
+  --approved-text: #05c78d;
+  --regected: #ff89460d;
+  --rejected-text: #e05815;
+  --pending: #f9f1ff;
+}
+
+.each-transac {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+.transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.each-transac2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fab61308;
+}
+
+.selectPayment {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.selectPayment {
+  color: var(--font);
+}
+
+#darkerColor {
+  background: #fab61326;
+}
+
+.right-transac {
+  display: flex;
+  gap: 10px;
+}
+
+.working-cap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.working-cap h2,
+.left-transac h2 {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.left-transac h3 {
+  color: var(--font);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 80%;
+}
+
+.payment-form {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.payment-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  color: var(--main-color);
+  display: block;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+}
+
+.form-group input[readonly] {
+  background-color: #f5f5f5;
+}
+
+.form-group button {
+  background-color: var(--main-color);
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.form-group button:hover {
+  background-color: #3700b3;
+}

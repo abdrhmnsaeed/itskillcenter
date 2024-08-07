@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Applicant Account Balance</title>
+
+    <link rel="stylesheet" href="../assests/css/loanRepayment.css" />
+    <link rel="stylesheet" href="../assests/css/cssreset.css" />
+    <link rel="stylesheet" href="../assests/css/applicantDashboard.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Welcome message and Notification icon -->
+      <div class="top-bar">
+        <div class="welcome2">
+          <div class="back">
+            <img src="../assests/images/arrow-left.png" alt="" />
+            <h3>back</h3>
+          </div>
+          <h1>Credit Card Checkout</h1>
+        </div>
+      </div>
+
+      <div class="cards">
+        <img src="../assests/images/creditCard.svg" alt="" />
+        <img class="img" src="../assests/images/payment-method.svg" alt="" />
+      </div>
+
+      <div class="payment-form">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="card-holder-name">Card Holder's Name</label>
+            <input
+              type="text"
+              id="card-holder-name"
+              name="card-holder-name"
+              placeholder="Norman Manzoor"
+            />
+          </div>
+          <div class="form-group">
+            <label for="card-number">Card Number</label>
+            <input
+              type="text"
+              id="card-number"
+              name="card-number"
+              placeholder="**** **** **** 2345"
+            />
+          </div>
+          <div class="flex">
+            <div class="form-group">
+              <label for="expiry-date">Expiry Date</label>
+              <input
+                type="text"
+                id="expiry-date"
+                name="expiry-date"
+                placeholder="12/22"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="***" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Pay Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
