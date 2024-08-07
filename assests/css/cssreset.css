@@ -8,8 +8,6 @@
   text-decoration: none;
   border: none;
   transition: background-color 0.3s ease;
-  cursor: pointer;
-  position: relative;
   scroll-behavior: smooth;
 }
 
@@ -22,4 +20,17 @@ html {
 
 body {
   overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }
