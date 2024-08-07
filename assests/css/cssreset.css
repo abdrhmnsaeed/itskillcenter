@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  color: #333;
   text-decoration: none;
   border: none;
   transition: background-color 0.3s ease;
@@ -22,6 +21,5 @@ html {
 }
 
 body {
-  min-width: 100vh;
   overflow-x: hidden;
 }
