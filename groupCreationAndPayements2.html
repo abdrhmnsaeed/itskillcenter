@@ -30,21 +30,44 @@
             <p>Apply for loan in groups</p>
           </div>
         </header>
-        <main class="main flexcolWithAlignAndJustify">
-          <div class="people flexRowWithJustifyAndAlign">
-            <img src="/./../assests/images/people.svg" alt="people_icon" />
-          </div>
-          <p class="text flexcolWithAlignAndJustify">
-            <span>Create Loan group and add</span>
-            <span>your group members</span>
-          </p>
-          <button class="short_btn flexRowWithJustifyAndAlign">
-            <img
-              src="./../assests/images/crossIconinBtn.svg"
-              alt="cross_icon"
-            />
-            <span>Create Group</span>
-          </button>
+        <main class="main gap1rem flexcolNoJustifyAndAlign">
+          <section class="groupPhoto flexcolNoJustifyAndAlign">
+            <p>Group Photo</p>
+            <div class="photoBox people flexcolWithAlignAndJustify">
+              <img src="./assests/images/cameraIcon.svg" alt="camera_icon" />
+            </div>
+          </section>
+          <section class="form_section">
+            <form action="" class="form flexcolNoJustifyAndAlign">
+              <div class="form_div pad flexcolNoJustifyAndAlign">
+                <label for="#">Group Name</label>
+                <input type="text" placeholder="Enter your Guarantor's name" />
+              </div>
+              <div class="form_div flexcolNoJustifyAndAlign">
+                <label for="#">Group Location</label>
+                <div>
+                  <input type="text" placeholder="select your group location" />
+                  <img src="./assests/images/arrowDown.svg" alt="" />
+                </div>
+              </div>
+              <div class="form_div flexcolNoJustifyAndAlign">
+                <label for="#">Group Community</label>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="select your group community"
+                  />
+                  <img
+                    src="./assests/images/arrowDown.svg"
+                    alt="arrow_down_icon"
+                  />
+                </div>
+              </div>
+              <button class="fullbtn flexcolNoJustifyAndAlign">
+                <a href="./groupCreationAndPayements4.html">Create Group</a>
+              </button>
+            </form>
+          </section>
         </main>
       </section>
     </main>

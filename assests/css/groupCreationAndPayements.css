@@ -2,8 +2,31 @@
   main {
     height: 100vh;
     width: 100%;
-    background: dodgerblue;
   }
+}
+
+.link {
+  color: var(--prim-white);
+}
+
+.borderBottom {
+  border-bottom: 0.1rem solid var(--iconbgColors);
+}
+
+.gap {
+  gap: 3rem;
+}
+
+.gap1rem {
+  gap: 1rem;
+}
+
+.gap2 {
+  gap: 2rem;
+}
+
+.max_width {
+  height: 100%;
 }
 
 .flexRowWithJustifyAndAlign {
@@ -14,12 +37,18 @@
 
 .flexRowNoJustify {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+.flexRowWithAlign {
+  display: flex;
+  align-items: center; /* incase of broken code, check here */
 }
 .flexRowWithJustify {
   display: flex;
-  align-items: center;
+  justify-content: center; /* incase of broken code, check here */
 }
+
 .flexcolWithAlignAndJustify {
   display: flex;
   flex-direction: column;
@@ -35,6 +64,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.flexcolNoJustifyAndAlign {
+  display: flex;
+  flex-direction: column;
+}
+.flexrowJustifyBetweenAlign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -63,7 +102,6 @@
   border-radius: 2rem 2rem 0 0;
   background: var(--prim-white);
   padding: 1.5rem;
-  gap: 3rem;
 }
 .people {
   background: var(--iconbgColors);
@@ -78,4 +116,243 @@
   gap: 0.7rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
+}
+
+/* page 2 */
+
+.groupPhoto {
+  height: 30%;
+}
+
+.photoBox {
+  align-self: center;
+}
+
+.form_section {
+  flex: 1;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.form_div {
+  width: 100%;
+}
+label {
+  font-size: 1.4rem;
+}
+
+.pad input {
+  padding: 1rem 0.5rem;
+  background: transparent;
+}
+
+.form_div {
+  gap: 0.5rem;
+}
+
+.form_div div {
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid var(--secondary-bg);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  gap: 2rem;
+}
+
+.form_div div input {
+  flex: 1;
+  outline: none;
+  background: transparent;
+}
+
+.fullbtn {
+  background: var(--secondary-bg);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullbtn a {
+  color: var(--prim-white);
+}
+
+/* Fourth Page */
+
+.congratulationsPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: spa;
+  padding: 2rem;
+  background: var(--prim-white);
+  height: 100%;
+  gap: 4rem;
+}
+
+.congratsIconBox {
+  margin-bottom: 2rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.proceedBtn {
+  background: var(--secondary-bg);
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.proceedBtn a {
+  color: var(--prim-white);
+}
+
+/* fifth page */
+.fifthPage {
+  height: 100%;
+  background: var(--tertiary-bg);
+}
+
+.fifthPage .header {
+  background: var(--secondary-bg);
+  color: var(--prim-white);
+  height: 20%;
+}
+
+.photoBox {
+  width: 7rem;
+  height: 7rem;
+  background: var(--prim-white);
+  border-radius: 50%;
+}
+
+.photoBox img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.fifthPage .main {
+  flex: 1;
+  border-radius: 0%;
+  background: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.groupDetails {
+  background: var(--prim-white);
+  margin-top: 2rem;
+  position: relative;
+  gap: 2rem;
+  padding: 2rem;
+  width: 90%;
+}
+
+.image {
+  top: -1.5rem;
+  background: var(--prim-white);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.linkBtns {
+  background: var(--tertiary-bg);
+  color: var(--prim-dark);
+  padding: 1rem 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.callToAction {
+  width: 100%;
+}
+
+.chat {
+  width: 90%;
+  gap: 1rem;
+}
+
+.flex1 {
+  flex: 1;
+  background: var(--prim-white);
+  height: 100%;
+  border-radius: 10rem;
+  padding: 0.5rem 0.8rem;
+  gap: 1rem;
+}
+
+.flex1 input {
+  flex: 1;
+  height: 100%;
+  padding: 0 0.5rem;
+  background: transparent;
+}
+
+.microphone {
+  background: var(--secondary-bg);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.microphone_icon img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.one {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  position: relative;
+  border-bottom: 0.1rem solid var(--iconbgColors);
+}
+
+.btnDiv div {
+  padding: 1rem 3rem;
+  border-radius: 10rem;
+}
+
+.btnDiv div button {
+}
+
+.two {
+  flex: 1;
+}
+
+.list {
+  gap: 2rem;
+  flex: 1;
+}
+
+.list li {
+  padding: 0.5rem 0;
+}
+
+.orange {
+  background: var(--orange);
+  color: orange;
+  padding: 0.2rem 1rem;
+  border-radius: 10rem;
+}
+
+.profilePhoto {
+  background: var(--iconbgColors);
+  border-radius: 50%;
 }
