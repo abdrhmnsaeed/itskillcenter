@@ -1,0 +1,122 @@
+@media only screen and (max-width: 768px) {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  .no-break {
+    white-space: nowrap;
+  }
+
+  main {
+    padding-top: 2vh;
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 4vh;
+  }
+
+  main section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30%;
+  }
+
+  main section p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.936rem;
+    color: #494949;
+  }
+
+  main h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: #494949;
+  }
+
+  .shadowCard {
+    width: 100%;
+    padding: 2vh 5%;
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px 0 rgba(168, 166, 166, 0.162);
+  }
+
+  .shadowCard .nameNlink {
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    padding-bottom: 1vh;
+  }
+
+  .nameNlink div {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5vh;
+  }
+
+  .nameNlink div p a {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #5c2682;
+  }
+  .smallF {
+    font-size: 1.2rem;
+    color: #3b3740;
+    line-height: 2.3rem;
+    font-weight: 700;
+  }
+
+  main h3 {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: #494949;
+  }
+
+  .containSettings {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2vh;
+  }
+
+  .containSettings div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7%;
+    border: 1px solid #f0f3ff;
+  }
+  p.thisBlock {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+  }
+
+  .Kemptynow {
+    flex: 1;
+  }
+
+  .white-space {
+    color: #fff;
+    white-space: nowrap;
+  }
+}
+
+div.footer {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}

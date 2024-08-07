@@ -1,0 +1,105 @@
+@media only screen and (max-width: 768px) {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  main {
+    padding-top: 2vh;
+    min-height: 100vh;
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    padding-bottom: 5vh;
+    gap: 3vh;
+  }
+
+  main section {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30%;
+  }
+
+  main section p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.936rem;
+    color: #494949;
+  }
+
+  main h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.663rem;
+    color: #494949;
+  }
+
+  .smallF {
+    font-size: 1.2rem;
+    color: #3b3740;
+    line-height: 2.3rem;
+    font-weight: 700;
+  }
+
+  main h3 {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: #494949;
+  }
+
+  .uploadImage {
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 2.5vh;
+    border: 1px dashed #be9cf8;
+    width: 100%;
+    padding-top: 5vh;
+  }
+
+  .uploadImage .smallFDiff {
+    color: #be9cf8;
+  }
+
+  .Kemptynow {
+    flex: 1;
+  }
+
+  .KbuttonCont {
+    align-self: center;
+    width: 100%;
+  }
+
+  .KbuttonCont button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    line-height: 2.178rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .KbuttonCont .KbuttonDark {
+    display: none;
+    background-color: #5c2682;
+  }
+
+  .KbuttonCont .Kbutton {
+    display: block;
+    background-color: #c4a7d8;
+  }
+
+  .white-space {
+    color: #fff;
+    white-space: nowrap;
+  }
+}
