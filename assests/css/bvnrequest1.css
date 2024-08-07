@@ -1,0 +1,179 @@
+@media (min-width: 50px) {
+  #bvn-1-body {
+    padding: 1rem;
+    width: 94%;
+    margin: 0 auto;
+    height: 100vh;
+  }
+
+  #img-back {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 20%;
+    padding-bottom: 2rem;
+  }
+
+  #back {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  #please {
+    font-size: 2.5rem;
+    padding-bottom: 0.6rem;
+  }
+
+  #bvn-text {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+
+  #bvn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 3.1rem 0 1rem 0;
+  }
+
+  #bvn-number{
+    background-color: transparent;
+  }
+
+  #bvn-label {
+    color: rgba(92, 38, 130, 1);
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  #input {
+    border: 0.5px solid rgba(196, 196, 196, 1);
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: rgba(243, 239, 255, 0.5);
+    color: rgba(163, 163, 163, 1);
+    font-weight: 700;
+  }
+
+  #inputs {
+    border: 0.5px solid rgba(196, 196, 196, 1);
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: rgba(243, 239, 255, 0.5);
+    color: rgba(32, 23, 61, 1);
+    font-weight: 700;
+  }
+
+  #inputs-err {
+    border: 0.5px solid rgba(255, 120, 120, 1);
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: rgba(243, 239, 255, 0.5);
+    color: rgba(32, 23, 61, 1);
+    font-weight: 700;
+  }
+
+  #required {
+    color: rgba(255, 120, 120, 1);
+  }
+
+  #bvn-error {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    color: rgba(32, 23, 61, 0.43);
+  }
+
+  #dial {
+    color: rgba(92, 38, 130, 1);
+  }
+
+  #why-your-bvn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #img-why {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #see-icon {
+    color: rgba(250, 182, 19, 1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #see {
+    color: rgba(250, 182, 19, 1);
+  }
+
+  #see-more {
+    color: rgba(250, 182, 19, 1);
+    background-color: transparent;
+  }
+
+  #why-your-bvns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    margin: 3rem 0 12rem 0;
+  }
+
+  #secure {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  #reasons {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #list-reasons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  hr {
+    border: 0.1rem solid rgba(228, 228, 228, 1);
+  }
+
+  #bvn-lock-div {
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  #bvn-secure {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+
+  #continue-button {
+    background-color: rgba(196, 167, 216, 1);
+    border-radius: 0.6rem;
+    padding: 1.5rem;
+    width: 100%;
+    color: white;
+    margin-bottom: 1rem;
+  }
+}

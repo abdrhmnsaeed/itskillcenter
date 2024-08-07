@@ -1,0 +1,167 @@
+@media (min-width: 768px) {
+  #splashscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #img-1 {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #fcmb-logo {
+    width: 100%;
+  }
+
+  #img-2 {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 425px) {
+  #splashscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #img-1 {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #fcmb-logo {
+    width: 100%;
+  }
+
+  #img-2 {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 375px) {
+  #splashscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #img-1 {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #fcmb-logo {
+    width: 100%;
+  }
+
+  #img-2 {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 320px) {
+  #splashscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #img-1 {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #fcmb-logo {
+    width: 100%;
+  }
+
+  #img-2 {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 200px) {
+  #splashscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #img-1 {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #fcmb-logo {
+    width: 100%;
+  }
+
+  #img-2 {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 50px) {
+  #splashscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #img-1 {
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #fcmb-logo {
+    width: 100%;
+  }
+
+  #img-2 {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
