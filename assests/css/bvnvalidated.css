@@ -1,0 +1,26 @@
+#validated-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 6rem 0;
+    padding: 2rem;
+}
+
+#text{
+    text-align: center;
+    font-size: 1.45rem;
+    line-height: 3rem;
+}
+
+#continue-btn{
+    background-color:  rgba(92, 38, 130, 1);
+    border-radius: 0.6rem;
+    padding: 1.5rem;
+    width: 90%;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
