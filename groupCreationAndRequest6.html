@@ -23,10 +23,13 @@
         <header class="header">
           <div class="top flexrowJustifyBetweenAlign">
             <aside class="left flexRowWithAlign gap1rem">
-              <img
-                src="./../assests/images/homeArrowIcon.svg"
-                alt="home_icon"
-              />
+              <a href="./groupCreationAndPayements5.html">
+                <img
+                  src="./../assests/images/homeArrowIcon.svg"
+                  alt="home_icon"
+                />
+              </a>
+
               <p>back</p>
             </aside>
             <aside class="editsIcons flexRowWithAlign gap">
@@ -36,7 +39,7 @@
             </aside>
           </div>
           <section class="flexRowWithAlign gap1rem">
-            <div class="photoBox flexRowWithJustifyAndAlign">
+            <div class="photoBox flexcolWithAlignAndJustify">
               <img src="./assests/images/cameraIcon.svg" alt="cameraIcon" />
             </div>
             <p>Storm Group</p>
@@ -46,10 +49,8 @@
         <main class="main flexcolNoJustifyAndAlign">
           <div class="one flexrowJustifyBetweenAlign">
             <h3>Mute Notification</h3>
-            <div class="btnDiv">
-              <div>
-                <button>btn</button>
-              </div>
+            <div class="btn1 flexRowWithAlign">
+              <div class="btn2"></div>
             </div>
           </div>
           <!-- first Div-->
@@ -65,19 +66,24 @@
             <ul class="flexcolNoJustifyAndAlign gap1rem list">
               <li class="flexrowJustifyBetweenAlign gap2">
                 <div class="flexRowWithAlign gap2">
-                  <div class="profilePhoto flexRowWithJustifyAndAlign">
+                  <div class="profilePhoto flexRowWithJustifyAndAlign photos">
                     <img
                       src="./assests/images/userAddedIcon.svg"
                       alt="userIcon"
                     />
                   </div>
-                  <p>Agbola Tunde</p>
+                  <p>Obagbola Tunde</p>
                 </div>
                 <p class="orange">Group Admin</p>
               </li>
-              <li>
-                <img src="./assests/images/userIcon.svg" alt="userIcon" />
-                <button>Add member</button>
+              <li class="flexRowWithAlign gap2">
+                <div class="profilePhoto flexcolWithAlignAndJustify photos">
+                  <img
+                    src="./assests/images/purple_user_icon.svg"
+                    alt="userIcon"
+                  />
+                </div>
+                <a href="#">Add member</a>
               </li>
 
               <li class="flexrowJustifyBetweenAlign borderBottom">
@@ -86,8 +92,11 @@
               </li>
 
               <li class="flexrowJustifyBetweenAlign gap2 borderBottom">
-                <div class="flexRowWithAlign gap2">
-                  <img src="./assests/images/userIcon.svg" alt="userIcon" />
+                <div class="flexRowWithAlign gap2 photos">
+                  <div class="profilePhoto flexRowWithJustifyAndAlign">
+                    <img src="./assests/images/purple_pen.svg" alt="penIcon" />
+                  </div>
+
                   <div>
                     <p>publish a group</p>
                     <p>notice</p>
@@ -98,11 +107,14 @@
 
               <li class="flexrowJustifyBetweenAlign gap2 borderBottom">
                 <div class="flexRowWithAlign gap2">
-                  <img
-                    src="./assests/images/photoGalleryIcon.svg"
-                    alt="photoGalleryIcon"
-                  />
-                  <p><a href="#">Group Media</a></p>
+                  <div class="profilePhoto flexRowWithJustifyAndAlign">
+                    <img
+                      src="./assests/images/photoGalleryIcon.svg"
+                      alt="photoGalleryIcon"
+                    />
+                  </div>
+
+                  <p class="flexRowWithAlign"><a href="#">Group Media</a></p>
                   <!--  -->
                 </div>
                 <img src="./assests/images/arrowRight.svg" alt="arrow icon" />
@@ -114,7 +126,7 @@
                   alt="arrow icon"
                 />
                 <p>
-                  <a href="./groupCreationAndPayements6.html">Exit Group</a>
+                  <a href="./groupCreationAndPayements7.html">Exit Group</a>
                 </p>
               </li>
             </ul>
@@ -122,5 +134,6 @@
         </main>
       </section>
     </main>
+    <script src="./js/groupCreationAndPayements.js"></script>
   </body>
 </html>
