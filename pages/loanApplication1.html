@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assests/css/cssreset.css" />
+    <link rel="stylesheet" href="../assests/css/colors.css" />
+    <link
+      rel="stylesheet"
+      href="../assests/css/groupCreationAndPayements.css"
+    />
+    <title>FCMB BANK APP</title>
+  </head>
+  <body>
+    <main>
+      <section class="container bg_white">
+        <header class="page8 header">
+          <div class="top flexrowJustifyBetweenAlign">
+            <aside class="left flexRowWithAlign gap1rem">
+              <a href="./groupCreationAndPayements6.html"
+                ><img src="./assests/images/blackLeftArrow.svg" alt="home_icon"
+              /></a>
+              <p class="text_black">back</p>
+            </aside>
+          </div>
+          <section class="flexcolNoJustifyAndAlign gap1rem">
+            <h1 class="text_black">Loan Application</h1>
+            <p class="text_black">
+              This is a former request for loan application. if the loan is
+            </p>
+            <p class="text_black">granted, I will use it for the following purpose</p>
+          </section>
+        </header>
+        <!-- main section -->
+        <main class="main form_section">
+            <section class="flexcolNoJustifyAndAlign gap height">
+              <secion class="steps">
+                <p>
+                  step <span>1</span> of
+                  <span>4</span>
+                </p>
+  
+                <div class="outerRange">
+                  <!-- <canvas id="rangecanvas"></canvas> -->
+                  <div class="box"></div>
+                </div>
+              </secion>
+              <form action="" class="gap flexcolNoJustifyAndAlign height">
+                <section class="flexcolNoJustifyAndAlign gap flex">
+
+                    <div class="form_div flexcolNoJustifyAndAlign">
+                        <label for="useOfLoan">Proposed Use of Loan</label>
+                        <div>
+                            <input list="options" id="useOfLoan" name="useOfLoan" />
+                            <datalist id="options">
+                                <option value="Business"></option>
+                                <option value="Farming"></option>
+                                <option value="Mining"></option>
+                                <option value="Production"></option>
+                                <option value="Education"></option>
+                              </datalist>
+                        </div>
+                      </div>
+
+                  <div class="form_div flexcolNoJustifyAndAlign">
+                    <label for="#">Loan Amount Requested</label>
+                    <div>
+                      <input type="text" placeholder="Enter the Loan Amount" />
+                    </div>
+                    <p>Maximum 100,000</p>
+                  </div>
+                  
+                </section>
+                <button class="fullbtn flexcolNoJustifyAndAlign">
+                  <a href="./loanApplication2.html">Save & Continue</a>
+                </button>
+              </form>
+            </section>
+          </main>
+        </section>
+      </main>
+    </main>
+  </body>
+</html>
